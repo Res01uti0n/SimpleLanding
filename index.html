@@ -3,6 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Landy</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
@@ -10,62 +11,165 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-   
-    <header>
-        <nav>
-            <div>
-                <a href="#">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+
+    <header class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar-inner">
+            <div class="container">
+                <a href="#" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </a>
-                <a href="#">Landy</a>
-                <div>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Screnshots</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Download</a></li>
+                <a href="#myCarousel" class="brand">Landy</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav-collapse pull-right">
+                        <li class="active"><a href="#myCarousel">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#screenshots">Screenshots</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#download">Download</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    
+
     <main>
-        <section>
-            <div>
-                <div>
-                    <img src="#" alt="#" />
-                    <div>
-                        <h1>Feature your app</h1>
-                        <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, 
-                        aliquam sit amet justo nunc tempor, metus vel.</p>
-                        <a href="#">Download now</a>
+        <section id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="active item">
+                    <img src="img/main_logo.jpg" alt="Logo" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Feature your app</h1>
+                            <p class="lead">
+                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac,
+                                aliquam sit amet justo nunc tempor, metus vel.
+                            </p>
+                            <a href="#download" class="btn btn-large btn-info pull-right">Download now</a>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="#" alt="#" />
-                    <div>
-                        <h1>Free download</h1>
-                        <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac,
-                         aliquam sit amet justo nunc tempor, metus vel.</p>
-                        <a href="#">Download now</a>
+
+                <div class="item">
+                    <img src="img/main_logo_2.jpg" alt="Logo" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Free download</h1>
+                            <p class="lead">
+                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac,
+                                aliquam sit amet justo nunc tempor, metus vel.
+                            </p>
+                            <a class="btn btn-large btn-info pull-right" href="#download">Download now</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <a href="#">&lsaquo;</a>
-            <a href="#">&rsaquo;</a>
+            <a href="#myCarousel" class="carousel-control left" data-slide="prev">&lsaquo;</a>
+            <a href="#myCarousel" class="carousel-control right" data-slide="next">&rsaquo;</a>
         </section>
 
-        <section>
-            <div>
+        <div class="container">
+            <section id="about">
+                <div id="heading">
+                    <h1>A great free landing page template</h1>
+                    <p class="lead">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                </div>
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="span4">
+                        <img class="img-polaroid" src="img/logo_7.jpg" alt="">
+                    </div>
+                    <div class="span8">
+                        <p class="lead">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                        <p class="lead">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span8">
+                        <p class="lead">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                        <p class="lead">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                    </div>
+                    <div class="span4">
+                        <img class="img-polaroid" src="img/logo_8.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <div class="divider"></div>
+
+            <section id="screenshots" class="row">
+                <h1>Check some great screenshots</h1>
+                <div class="span2"><img class="img-polaroid" src="img/logo_1.jpg" alt=""></div>
+                <div class="span2"><img class="img-polaroid" src="img/logo_2.jpg" alt=""></div>
+                <div class="span2"><img class="img-polaroid" src="img/logo_3.jpg" alt=""></div>
+                <div class="span2"><img class="img-polaroid" src="img/logo_4.jpg" alt=""></div>
+                <div class="span2"><img class="img-polaroid" src="img/logo_5.jpg" alt=""></div>
+                <div class="span2"><img class="img-polaroid" src="img/logo_6.jpg" alt=""></div>
+            </section>
+            <div class="divider"></div>
+
+            <section id="features" class="row">
+                <div class="span4">
+                    <img src="img/gear-icon.png" alt="">
+                    <h3>Feature 1</h3>
+                    <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                </div>
+                <div class="span4">
+                    <img src="img/monitoring-icon.png" alt="">
+                    <h3>Feature 2</h3>
+                    <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                </div>
+                <div class="span4">
+                    <img src="img/multi-files-icon.png" alt="">
+                    <h3>Feature 3</h3>
+                    <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                </div>
+            </section>
+            <div class="divider"></div>
+
+            <div id="download" class="row">
+                <ul class="inline">
+                    <li><a href="#" class="btn btn-large btn-success">Try it FREE</a></li>
+                    <li><a href="#" class="btn btn-large btn-info">Buy it now</a></li>
+                </ul>
 
             </div>
-        </section>
+        </div>
     </main>
 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="span6">
+                    <h3>About App</h3>
+                    <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                </div>
+                <div class="span6">
+                    <h3>Get Informed</h3>
+                    <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                    <form action="#" class="form-inline">
+                        <input type="text" class="input-large" placeholder="Email">
+                        <button type="submit" class="btn  btn-info">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <p><small>Copyright 2013, Your Company name</small></p>
+                    <ul id="social" class="inline">
+                        <li><a class="facebook-icon" href="#"></a></li>
+                        <li><a class="twitter-icon" href="#"></a></li>
+                        <li><a class="google-icon" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write("<script src='js/jquery-1.8.3.min.js'>\x3C/script>")</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
 </body>
 </html>
